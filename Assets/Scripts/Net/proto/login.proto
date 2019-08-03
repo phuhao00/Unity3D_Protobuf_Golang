@@ -1,0 +1,12 @@
+syntax = "proto3";
+package pb;
+
+message LoginReq
+{
+	 string account= 1;
+	 string token = 2;
+}
+message LoginResp{
+	int32 code =1;
+	string desc=2;
+}
